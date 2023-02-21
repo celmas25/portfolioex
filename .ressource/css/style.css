@@ -219,7 +219,6 @@ button:hover{
 @media (max-width: 1400px){
     
     /*cette regle ne fonctionne pas 
-    
     .nav {
         display: flex;
         justify-content: flex-start;
