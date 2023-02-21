@@ -109,7 +109,6 @@ button:hover{
     margin-top: 30px;
     height: 500px;
     background-color: var(--background2);
-    
     overflow-y: hidden;
 }
 
@@ -217,5 +216,64 @@ button:hover{
     width: 150px;
 }
 
+@media (max-width: 1400px){
+    
+    /*cette regle ne fonctionne pas 
+    
+    .nav {
+        display: flex;
+        justify-content: flex-start;
+        max-width: auto;
+    }
+    .nav a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }*/ 
+    .clavier{
+        width: 2000px;
+    }
+    .portrait{
+        margin-left: 500px;
+    }
+    #competences{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }   
+    #competences img{
+        height: 80px;
+        width: 70px;
+        padding: 30px;
+    }
+   
+}
 
-
+@media(max-width: 780px){
+    .clavier{
+        width: 2000px;
+    }
+    .portrait{
+        margin-left: 100px;
+    }
+    #presentation{
+        align-items: flex-start;
+        padding-left: 20px;
+        text-align: start;
+        width: 500px;
+    }
+    #competences{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }   
+    #competences img{
+        height: 75px;
+        width: 65px;
+        padding: 18px;
+    }
+    #projets{
+        margin-left:  175px;
+        margin-top: 30px;
+        margin-right: auto;
+    }
+}
